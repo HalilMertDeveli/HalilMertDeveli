@@ -13,9 +13,9 @@
   <br>
   👨‍🎓 I'm currently studying for a Bozok University Computer Science  
   <br>
-  💻 I love Writing code and learning anything about them 😊
+  💻 I love writing code and learning anything about them 😊
   <br>
-  📚 I’m currently focusing on Mobile Programming with Flutter and Android
+  📚 I’m currently focusing on mobile Programming with Flutter and Android
   <br>
   📫 How to reach me 👇
 </p>

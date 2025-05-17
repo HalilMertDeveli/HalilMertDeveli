@@ -11,7 +11,7 @@
   Hi, I'm Halil Mert Develi, Computer Engineer & Software Developer 
   <br>
   <br>
-  👨‍🎓 I'm currently studying for a Bozok University Computer Science  
+  👨‍🎓 I'm currently studying for a Boğaziçi University Computer Science  
   <br>
   💻 I love writing code and learning anything about them 😊
   <br>

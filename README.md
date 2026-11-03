@@ -42,13 +42,14 @@ Most of my work happens in the LED display industry: support tooling, B2B commer
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [**LEDCare OS**](https://github.com/HalilMertDeveli/LEDCare-OS) | Service-management platform for LED screen technical support: a web app, a mobile app and an API, with CI that runs backend tests on real PostgreSQL, web E2E tests and an Android build. In development. | ASP.NET Core · EF Core · PostgreSQL · SignalR · Next.js · React · Flutter |
+| [**ClearPay**](https://github.com/HalilMertDeveli/clearpay-ledger) | Demo digital wallet on a double-entry ledger with idempotent transfers, a transactional outbox, and web and Flutter clients. 190 tests; CI runs them against SQL Server. Not a banking product. | .NET 8 · ASP.NET Core · SQL Server · xUnit · Flutter |
 | [**ASP.NET-APP-FOR-LED**](https://github.com/HalilMertDeveli/ASP.NET-APP-FOR-LED) | Live support website for Colorlight, NovaStar and Huidu LED control systems: request form, Google sign-in, realtime customer chat and an admin panel. [Live site](https://asp-net-app-for-led.vercel.app) | ASP.NET Core 8 · Razor Pages · Supabase · Resend · Vercel |
 | [**TaskManagementSystem**](https://github.com/HalilMertDeveli/TaskManagementSystem) | My Computer Engineering capstone: a task manager with Admin and Member roles, built with Onion architecture. | ASP.NET Core MVC · MediatR · FluentValidation · EF Core · SQL Server |
 | [**yazilim-sitesi**](https://github.com/HalilMertDeveli/yazilim-sitesi) | My portfolio site, with small playable demos of my products and a printable recruiter brief. [Live site](https://halilmertdeveli.com.tr) | ASP.NET Core 8 · Razor Pages · vanilla JS · Docker |
 
 ### Private product work
 
-The source of these lives in private repositories. You can try small demos of the first four on [my portfolio](https://halilmertdeveli.com.tr).
+The source of these lives in private repositories. You can try small demos of all four on [my portfolio](https://halilmertdeveli.com.tr).
 
 | Project | What it is | Stack | Status |
 | --- | --- | --- | --- |
@@ -56,12 +57,11 @@ The source of these lives in private repositories. You can try small demos of th
 | **LED B2B Platform** | Managed B2B platform that turns an LED screen request into a configured, priced order, with suppliers and costs hidden from the customer. | .NET 10 · ASP.NET Core · EF Core · PostgreSQL | Not publicly available |
 | **Motor** | E-commerce site for a motorcycle parts business, with parts searched by make, model and year. | .NET 10 · ASP.NET Core · EF Core · PostgreSQL · Docker | Demo stage |
 | **LED Support Bot** | WhatsApp intake system that collects a technician's diagnostic details, then hands the conversation to a human. | .NET 8 · ASP.NET Core · PostgreSQL · Node.js | In testing |
-| **ClearPay** | Demo digital wallet on a double-entry ledger, with web and Flutter clients. | .NET 8 · SQL Server · Hangfire · Flutter | Demo |
 
 ## Engineering highlights
 
 - **Tests against real infrastructure.** The LED B2B Platform's suite runs locally against PostgreSQL (last recorded run: 2,691 passed). [LEDCare OS](https://github.com/HalilMertDeveli/LEDCare-OS) runs backend tests on real PostgreSQL, contract and web E2E tests, mobile analysis and an Android build in GitHub Actions.
-- **Money handled carefully.** ClearPay derives balances from a double-entry ledger instead of updating them, and transfers are idempotent: a replayed request returns `409`.
+- **Money handled carefully.** [ClearPay](https://github.com/HalilMertDeveli/clearpay-ledger) derives balances from a double-entry ledger instead of updating them, and transfers are idempotent: a replayed request returns `409`, and concurrent transfers are tested against SQL Server so a balance can never go negative.
 - **Pricing safety through types.** In the LED B2B Platform, supplier cost, platform margin and customer price are separate value objects, so cost and sale price can't be mixed up.
 - **Trust moved to the server.** Mevora computes matches, applies safety rules and validates purchases in Cloud Functions rather than on the client.
 - **Deterministic first, AI second.** The LED Support Bot parses sizes, counts and IDs with plain code; an LLM is only called behind a cost gate, with a strict JSON schema and validation.

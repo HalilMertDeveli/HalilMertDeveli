@@ -1,144 +1,84 @@
 <h1 align="center">Halil Mert Develi</h1>
 
 <p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=24&duration=3200&pause=900&color=1F6FEB&center=true&vCenter=true&width=600&height=55&lines=.NET+Backend+Developer;Flutter+%26+Mobile+Developer;Building+AI-Powered+Support+Systems;Clean+Architecture+%26+REST+APIs"
-    width="600"
-    alt=".NET Backend Developer / Flutter and Mobile Developer / Building AI-Powered Support Systems / Clean Architecture and REST APIs"
-  />
+  <strong>.NET Backend &amp; Full-Stack Software Engineer</strong><br />
+  Flutter &amp; cross-platform mobile · Istanbul, Türkiye
 </p>
 
 <p align="center">
-  <strong>Computer Engineer</strong> &nbsp;·&nbsp; Software Developer &nbsp;·&nbsp; Istanbul, Türkiye
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/halil-mert-develi-00983a225/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:halilmertdeveliii@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/HalilMertDeveli?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-181717?style=flat-square&logo=github&logoColor=white" alt="Repositories" />
-  </a>
+  <a href="https://halilmertdeveli.com.tr"><img src="https://img.shields.io/badge/Portfolio-halilmertdeveli.com.tr-111?style=flat-square" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/halil-mert-develi-00983a225/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:halilmertdeveliii@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
 
-## About
+## About me
 
-I build backend services with **.NET** and cross-platform mobile apps with **Flutter**.
+I'm a Computer Engineer who builds backend systems with **C# and ASP.NET Core**, and cross-platform mobile apps with **Flutter**.
 
-Most of my day-to-day work sits in the LED display industry — support tooling, B2B commerce
-and hardware-adjacent systems — where the interesting problems are less about frameworks and
-more about modelling a messy domain correctly.
+Most of my work happens in the LED display industry: support tooling, B2B commerce and service-management platforms, where the hard part is modelling a messy domain correctly. I care about layered architecture, explicit domain models, tests that run against real databases, and APIs that are boring to consume.
 
-- Backend work centred on **ASP.NET Core**, **Entity Framework Core** and relational databases
-- Mobile work in **Flutter / Dart**, with **Firebase** as the backend
-- Currently building an **AI-assisted support system** on top of retrieval-augmented generation
-- I care about layered architecture, explicit domain models and APIs that are boring to consume
+## Core engineering skills
 
----
+- **Backend & APIs** — ASP.NET Core, REST, Razor Pages / MVC, EF Core, authentication and role-based authorization
+- **Architecture** — Clean / Onion / layered architecture, domain modelling, idempotent operations, ports and adapters
+- **Data** — PostgreSQL, SQL Server, Cloud Firestore, Supabase, migrations and integration tests on real databases
+- **Mobile** — Flutter and Dart for Android and iOS, Firebase, some native Android with Kotlin and Jetpack Compose
+- **Web front end** — Next.js, React, TypeScript
+- **Delivery** — Docker, GitHub Actions CI, Vercel container deployments
+- **Integrations** — payment providers, email, WhatsApp and LLM APIs with validation and failure handling
 
-## Tech Stack
+## Technology stack
 
-**Backend**
+<p>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,flutter,dart,nextjs,react,ts,firebase,supabase,docker,githubactions&theme=dark" alt="C#, .NET, PostgreSQL, Flutter, Dart, Next.js, React, TypeScript, Firebase, Supabase, Docker, GitHub Actions" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,visualstudio&theme=dark" height="40" alt="C#, .NET, Visual Studio" />
+## Featured projects
 
-`C#` &nbsp;`.NET 8` &nbsp;`ASP.NET Core` &nbsp;`Entity Framework Core` &nbsp;`REST APIs` &nbsp;`SignalR` &nbsp;`WPF`
+### Open source
 
-**Mobile**
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**ASP.NET-APP-FOR-LED**](https://github.com/HalilMertDeveli/ASP.NET-APP-FOR-LED) | Live support website for Colorlight, NovaStar and Huidu LED control systems: request form, Google sign-in, realtime customer chat and an admin panel. [Live site](https://asp-net-app-for-led.vercel.app) | ASP.NET Core 8 · Razor Pages · Supabase · Resend · Vercel |
+| [**TaskManagementSystem**](https://github.com/HalilMertDeveli/TaskManagementSystem) | My Computer Engineering capstone: a task manager with Admin and Member roles, built with Onion architecture. | ASP.NET Core MVC · MediatR · FluentValidation · EF Core · SQL Server |
+| [**yazilim-sitesi**](https://github.com/HalilMertDeveli/yazilim-sitesi) | My portfolio site, with small playable demos of my products and a printable recruiter brief. [Live site](https://halilmertdeveli.com.tr) | ASP.NET Core 8 · Razor Pages · vanilla JS · Docker |
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,androidstudio&theme=dark" height="40" alt="Flutter, Dart, Kotlin, Android Studio" />
+### Private product work
 
-`Flutter` &nbsp;`Dart` &nbsp;`Kotlin` &nbsp;`Android`
+The source of these lives in private repositories. You can try small demos of the first four on [my portfolio](https://halilmertdeveli.com.tr).
 
-**Data**
+| Project | What it is | Stack | Status |
+| --- | --- | --- | --- |
+| **Mevora** | Dating app that shows why two people match and keeps exact location private; matching, safety rules and moderation run on the server. | Flutter · Firebase · Cloud Functions (TypeScript) | Pre-launch |
+| **LED B2B Platform** | Managed B2B platform that turns an LED screen request into a configured, priced order, with suppliers and costs hidden from the customer. | .NET 10 · ASP.NET Core · EF Core · PostgreSQL | Not publicly available |
+| **Motor** | E-commerce site for a motorcycle parts business, with parts searched by make, model and year. | .NET 10 · ASP.NET Core · EF Core · PostgreSQL · Docker | Demo stage |
+| **LED Support Bot** | WhatsApp intake system that collects a technician's diagnostic details, then hands the conversation to a human. | .NET 8 · ASP.NET Core · PostgreSQL · Node.js | In testing |
+| **LEDCare OS** | Service-management platform for LED screen technical support, with a web app, a mobile app and an API. | ASP.NET Core · PostgreSQL · SignalR · Next.js · Flutter | In development |
+| **ClearPay** | Demo digital wallet on a double-entry ledger, with web and Flutter clients. | .NET 8 · SQL Server · Hangfire · Flutter | Demo |
 
-<img src="https://skillicons.dev/icons?i=postgres,firebase,supabase&theme=dark" height="40" alt="PostgreSQL, Firebase, Supabase" />
+## Engineering highlights
 
-`PostgreSQL` &nbsp;`SQL` &nbsp;`Firebase` &nbsp;`Supabase` &nbsp;`pgvector`
+- **Tests against real infrastructure.** The LED B2B Platform's suite runs locally against PostgreSQL (last recorded run: 2,691 passed). LEDCare OS runs backend tests on real PostgreSQL, contract and web E2E tests, mobile analysis and an Android build in GitHub Actions.
+- **Money handled carefully.** ClearPay derives balances from a double-entry ledger instead of updating them, and transfers are idempotent: a replayed request returns `409`.
+- **Pricing safety through types.** In the LED B2B Platform, supplier cost, platform margin and customer price are separate value objects, so cost and sale price can't be mixed up.
+- **Trust moved to the server.** Mevora computes matches, applies safety rules and validates purchases in Cloud Functions rather than on the client.
+- **Deterministic first, AI second.** The LED Support Bot parses sizes, counts and IDs with plain code; an LLM is only called behind a cost gate, with a strict JSON schema and validation.
 
-**Cloud &amp; Tooling**
+## GitHub activity
 
-<img src="https://skillicons.dev/icons?i=azure,docker,git,github&theme=dark" height="40" alt="Azure, Docker, Git, GitHub" />
-
-`Azure` &nbsp;`Docker` &nbsp;`Git` &nbsp;`GitHub`
-
-**AI &amp; Integrations**
-
-`Retrieval-Augmented Generation` &nbsp;`Vector search` &nbsp;`WhatsApp integration`
-
----
-
-## Featured Projects
-
-### Product work
-
-These live in private repositories, so there is no source to browse — the summaries below
-describe what I built and the stack it runs on.
-
-**LedSupBot** — *private*<br>
-AI-assisted WhatsApp support system for LED hardware. Handles support intake, answers from a
-retrieval-augmented knowledge layer over PostgreSQL with `pgvector`, pushes live updates over
-SignalR and ships a WPF desktop client for operators.<br>
-`ASP.NET Core` &nbsp;`PostgreSQL` &nbsp;`pgvector` &nbsp;`RAG` &nbsp;`SignalR` &nbsp;`WPF`
-
-**LedCommerce** — *private*<br>
-B2B LED marketplace built on ASP.NET Core with a Clean Architecture layout, covering the
-product catalogue, configuration and pricing side of the domain.<br>
-`ASP.NET Core` &nbsp;`Clean Architecture` &nbsp;`EF Core` &nbsp;`SQL`
-
-**Mevora** — *private*<br>
-Flutter dating app backed by Firebase — authentication, Firestore, Cloud Functions and
-third-party service integrations.<br>
-`Flutter` &nbsp;`Dart` &nbsp;`Firebase` &nbsp;`Cloud Functions`
-
-### Open repositories
-
-**[ClearPay](https://github.com/HalilMertDeveli/clearpay)**<br>
-ASP.NET Core 8 digital wallet with idempotent transfers, a SQL ledger and a mock bank gateway.<br>
-`.NET 8` &nbsp;`ASP.NET Core` &nbsp;`SQL`
-
-**[personal-Finance-Tracker](https://github.com/HalilMertDeveli/personal-Finance-Tracker)**<br>
-Personal finance tracker built with Flutter.<br>
-`Flutter` &nbsp;`Dart`
-
-**[yazilim-sitesi](https://github.com/HalilMertDeveli/yazilim-sitesi)**<br>
-My personal software / portfolio site, built with ASP.NET Core 8.<br>
-`ASP.NET Core 8` &nbsp;`CSS`
-
-More — including [led-teknik-destek](https://github.com/HalilMertDeveli/led-teknik-destek) and
-[TaskManagementSystem](https://github.com/HalilMertDeveli/TaskManagementSystem) — on the
-[repositories tab](https://github.com/HalilMertDeveli?tab=repositories).
-
----
-
-## GitHub Activity
-
-<p align="center">
+<p>
   <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://streak-stats.demolab.com/?user=HalilMertDeveli&theme=github-dark-blue&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D"
-    />
-    <img
-      src="https://streak-stats.demolab.com/?user=HalilMertDeveli&theme=default&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D"
-      width="495"
-      alt="GitHub contribution streak for HalilMertDeveli"
-    />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=HalilMertDeveli&theme=github-dark-blue&hide_border=true&border_radius=8" />
+    <img src="https://streak-stats.demolab.com/?user=HalilMertDeveli&theme=default&hide_border=true&border_radius=8" alt="GitHub contribution streak for HalilMertDeveli" />
   </picture>
 </p>
 
----
+## Portfolio & contact
 
-## Contact
-
+- **Portfolio** — [halilmertdeveli.com.tr](https://halilmertdeveli.com.tr)
 - **LinkedIn** — [halil-mert-develi](https://www.linkedin.com/in/halil-mert-develi-00983a225/)
 - **Email** — [halilmertdeveliii@gmail.com](mailto:halilmertdeveliii@gmail.com)
 
-<p align="center">
-  <sub>Open to conversations about .NET backends, Flutter apps and AI-assisted tooling.</sub>
-</p>
+Open to conversations about .NET backend, full-stack and Flutter roles.
